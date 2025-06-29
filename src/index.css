@@ -1,0 +1,279 @@
+  /* ---------- RESET GERAL ---------- */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  /* ---------- HEADER ---------- */
+  header {
+    background-color: #1a1a1a;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    color: #ff6b00;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .logo span {
+    color: #e0e0e0;
+  }
+  
+  nav a {
+    color: #e0e0e0;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff6b00;
+  }
+  
+  /* ---------- HERO ---------- */
+  .hero {
+    background-color: #121212;
+    padding: 100px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: calc(100vh - 80px);
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .hero h2 span {
+    color: #ff6b00;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: #aaa;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 12px 25px;
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ffa500;
+  }
+  
+  /* ---------- PROJETOS ---------- */
+  .projetos {
+    background-color: #1a1a1a;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .projetos h3 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  /* Swiper container */
+  .swiper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* CARD COM IMAGEM NO TOPO */
+  .card {
+    background-color: rgba(18, 18, 18, 0.95);
+    width: 280px;
+    height: 330px;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card h4 {
+    color: #ff6b00;
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+    min-height: 24px;
+  }
+  
+  .card p {
+    color: #ccc;
+    font-size: 0.95em;
+    min-height: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .card a {
+    color: #ff6b00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Setas Swiper */
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #ff6b00;
+  }
+  
+  /* ---------- CONTATO ---------- */
+  .contato {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+  }
+  
+  .contato h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contato-links p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .contato-links a {
+    color: #ff6b00;
+    text-decoration: none;
+  }
+  
+  .contato-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .contato-links i {
+    margin-right: 8px;
+    color: #ff6b00;
+  }
+  
+  
+  /* ---------- FOOTER ---------- */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #121212;
+    color: #666;
+  }
+  
+  .certificados {
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .certificados h3 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .certificados ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .certificados li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #ccc;
+  }
+  
+  .certificados a {
+    color: inherit; /* herda a cor do texto ao redor */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .certificados a:hover {
+    color: orange; /* ou use sua variável, ex: var(--cor-laranja) */
+  }
+  
+
+  .sobre-mim {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--cor-texto, #fff); /* ou a cor padrão do seu texto */
+  }
+  
+  .sobre-mim h3 {
+    font-size: 2rem;
+    color: orange;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
