@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://leoblins.github.io/Meu_Portfolio",
+  "homepage": "https://leoblins.github.io/Portif-lio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
