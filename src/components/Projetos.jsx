@@ -32,11 +32,12 @@ function Projetos() {
         </SwiperSlide>
 
         <SwiperSlide className="swiper-slide card">
-          <img src={`${base}Imagens/doacaoamor.png`} alt="Projeto Doação de amor" className="card-img" />
-          <h4>Projeto Doação de amor</h4>
-          <p>Projeto para uma ONG chamada Doação de Amor de livro em html css e javascript.</p>
-          <a href="https://github.com/leoblins/WEB3" target="_blank">Ver no GitHub</a>
-        </SwiperSlide>
+  <img src={`${base}Imagens/ongDoacao.png`} alt="Projeto Doação de amor" className="card-img" />
+  <h4>Projeto Doação de amor</h4>
+  <p>Projeto para uma ONG chamada Doação de Amor de livro em html css e javascript.</p>
+  <a href="https://github.com/leoblins/WEB3" target="_blank">Ver no GitHub</a>
+</SwiperSlide>
+
 
         <SwiperSlide className="swiper-slide card">
           <img src={`${base}Imagens/manha_beneficente.png`} alt="Projeto Manha Beneficente" className="card-img" />
